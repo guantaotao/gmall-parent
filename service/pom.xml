@@ -13,6 +13,14 @@
     <packaging>pom</packaging>
     <modules>
         <module>service-test</module>
+        <module>product-servvice</module>
+        <module>service-item</module>
+        <module>service-list</module>
+        <module>service-user</module>
+        <module>service-cart</module>
+        <module>service-order</module>
+        <module>service-seckill</module>
+        <module>service-payment</module>
     </modules>
     <dependencies>
         <dependency>

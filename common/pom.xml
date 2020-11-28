@@ -15,6 +15,7 @@
         <module>service-util</module>
         <module>web-util</module>
         <module>common-util</module>
+        <module>common-rabbitmq</module>
     </modules>
     <dependencies>
         <dependency>
@@ -38,17 +39,17 @@
             <artifactId>springfox-swagger-ui</artifactId>
         </dependency>
 
-<!--        &lt;!&ndash; 服务调用feign &ndash;&gt;
+        <!-- 服务调用feign -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-openfeign</artifactId>
         </dependency>
 
-        &lt;!&ndash; 服务注册&ndash;&gt;
+        <!-- 服务注册-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
-        </dependency>-->
+        </dependency>
     </dependencies>
 
 </project>
